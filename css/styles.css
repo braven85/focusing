@@ -24,7 +24,7 @@ body {
 }
 
 .form:focus-within {
-    border-color: #cdffcf;
+    border-color: #0011ff;
     background-color: #cdffcf;
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 .form-label:focus-within {
-    color: white;
-    background-color: black;
+    color: #fff;
+    background-color: #000;
     border-radius: 4px;
 }
 
@@ -51,6 +51,10 @@ body {
     font-family: inherit;
     font-size: 16px;
     outline: none;
+}
+
+.form-input:focus-within {
+    background-color: #ffeecd;
 }
 
 button {
